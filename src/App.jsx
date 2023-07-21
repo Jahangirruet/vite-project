@@ -14,8 +14,8 @@ export default function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Layout />}></Route>
-        <Route path="/home" element={<Home />}>Home</Route>
+        <Route path="/home" element={<Layout />}></Route>
+        <Route path="/" element={<Home />}>Home</Route>
         <Route path="/blogs" element={<Blogs />}>Blog</Route>
         <Route path="/contact" element={<Contact />}>
         </Route>
